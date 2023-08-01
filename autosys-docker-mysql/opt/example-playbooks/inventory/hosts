@@ -1,0 +1,6 @@
+[worker]
+1.1.1.1 hostname='test' ansible_port='22' ansible_ssh_user='root' ansible_ssh_pass='@admin123'
+
+# 所有节点
+[all:children]
+worker

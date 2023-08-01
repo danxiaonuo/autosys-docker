@@ -1,0 +1,9 @@
+---
+- name: hello world
+  hosts:
+   - localhost
+  connection: local
+  roles:
+    - role: hello
+      tags: hello
+

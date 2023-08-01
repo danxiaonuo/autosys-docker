@@ -1,0 +1,7 @@
+---
+- name: 版本号
+  debug: msg="{{ version }}"
+
+- name: 你好
+  debug: msg="{{ out }}"
+
