@@ -27,10 +27,10 @@ services:
     cap_add:
      - ALL
     # 配置容器内核参数
-    sysctls:
-      - net.ipv4.tcp_ecn=1
-      - net.ipv4.tcp_ecn_fallback=1
-      - net.ipv4.tcp_congestion_control=bbrplus
+    #sysctls:
+    #  - net.ipv4.tcp_ecn=1
+    #  - net.ipv4.tcp_ecn_fallback=1
+    #  - net.ipv4.tcp_congestion_control=bbrplus
    # 数据卷所挂载路径设置
     volumes:
       # 数据目录
@@ -90,10 +90,10 @@ services:
     cap_add:
      - ALL
     # 配置容器内核参数
-    sysctls:
-      - net.ipv4.tcp_ecn=1
-      - net.ipv4.tcp_ecn_fallback=1
-      - net.ipv4.tcp_congestion_control=bbrplus
+    #sysctls:
+    #  - net.ipv4.tcp_ecn=1
+    #  - net.ipv4.tcp_ecn_fallback=1
+    #  - net.ipv4.tcp_congestion_control=bbrplus
     # 数据卷所挂载路径设置
     volumes:
       # 数据目录
