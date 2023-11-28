@@ -13,6 +13,8 @@ services:
     container_name: postgres
     # 指定为镜像名称或镜像ID
     image: danxiaonuo/postgres:latest
+    # 共享主机PID
+    pid: host
     # 覆盖容器启动后默认执行的命令
     # command: /sbin/init
     # 允许容器中运行一些特权命令
